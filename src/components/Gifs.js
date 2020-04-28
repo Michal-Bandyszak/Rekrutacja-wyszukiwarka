@@ -10,8 +10,10 @@ function Gifs(props) {
   })
 
   return(
-    <div>
-      {giffs}
+    <div className='container'>
+      <div className='grid-3'>
+        {giffs}
+      </div>
     </div>
   )
 }

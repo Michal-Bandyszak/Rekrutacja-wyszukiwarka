@@ -22,8 +22,8 @@ class SearchGif extends Component {
     return(
       <div>
         <form onSubmit={this.onSubmit} className='form all-center'>
-          <input type='text' name='text' placeholder='Wyszukaj gif...' value={this.state.text} onChange={this.onChange} />
-          <input type='submit' value='search' className='btn btn-dark' />
+          <input className="border" type='text' name='text' placeholder='Wyszukaj gif...' value={this.state.text} onChange={this.onChange} />
+          <input type='submit' value='wyszukaj' className='btn btn-dark' />
         </form>
       </div>
 
